@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+.header .mainhead{
+    display: flex;
+    align-items: center;
+}
+
+.header .mainhead .logo{
+    font-size: 52px;
+    color: rgb(234, 136, 221);
+    font-weight: 900;
+}
+.header .mainhead .logo{
+    flex: 1;
+}
+.header .mainhead .nav{
+    flex: 1;
+}
+.header .mainhead .nav ul {
+    display: flex;
+    gap: 60px;
+    font-size: 15px;
+    align-items: center;
+
+}
+header .margin{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+header .padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .mainhead .nav ul li a:hover{
+    color: green;
+}
+.header .mainhead .nav ul li a{
+    transition: 0.2s all ease;
+}
+
+
+
+.mainsection .margin{
+    margin-left: 0px;
+    margin-right: 0;
+}
+.mainsection .padding{
+    padding-top: 0;
+    padding-bottom: 0;  
+}
+.mainsection {
+position: relative;
+background: url(/public/realmadrid.jpg);
+height: 739px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+.mainsection::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: -1;
+}
+.mainsection .mainhead1 .ground{
+    position: absolute;
+    width: 50%;
+    margin-top: 650px; 
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    border-top: 10px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    margin-left: 380px;
+    padding: 10px
+    
+}
+.mainsection .mainhead1 .ground h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(170, 73, 170);
+}
+
+
+
+
+.section11{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(222, 171, 230);
+}
+.section11 .margin{
+    margin: 0px 170px;
+}
+.section11 .mainsection1{
+    padding: 35px;
+}
+.section11 .mainsection1 h1{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.section11 .mainsection1 .connect {
+    display: flex;
+    gap: 20px;
+}
+
+.section11 .mainsection1 .connect .social .icon{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.section11 .mainsection1 .connect .social1 .icon{
+    display: flex;
+    gap: 0px;
+    padding: 10px;
+    align-items: center;
+
+
+}
+ .section11 .mainsection1 .connect .social .icon span{
+     font-size: 18px;
+    color: green;
+    
+}
+.section11 .mainsection1 .connect .social .icon h1{
+    font-weight: 100;
+   
+}
+ .section11 .mainsection1 .connect .social1 .icon span{ 
+    font-size: 18px;
+    color: rgb(110, 206, 110);
+} 
+.section11 .mainsection1 .connect .social1 .icon h1{
+    font-weight: 100;
+    
+}
+.section11 .mainsection1 .connect .tweet{
+    margin-left: 300px;
+    
+}
+.section11 .mainsection1 .connect .tweet h1{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.section11 .mainsection1 .connect .tweet p{
+    border: 2px solid rgb(219, 230, 219);
+    background-color: rgb(50, 208, 50) ;
+    padding: 25px;
+    color: white;
+    
+} 
