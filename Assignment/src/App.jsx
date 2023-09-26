@@ -7,6 +7,7 @@ import FunCom from './State/FunCom'
 import ClassState from './State/ClassCom'
 import CardCom from './Props/CardCom'
 import PropsCom from './Props/PropsCom'
+import ReactStyleCom from './ReactStyling/ReactStyleCom'
 
 function App() {
  
@@ -16,7 +17,8 @@ function App() {
     {/* <Header/> */}
     {/* <FunCom/> */}
     {/* <ClassState/> */}
-    <PropsCom/>
+    {/* <PropsCom/> */}
+    <ReactStyleCom/>
     </>
   )
 }

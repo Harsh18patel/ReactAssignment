@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.sport {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+    transition: 1s all ease;
+    cursor: pointer;
+    
+}
+
+.sport:hover {
+    color: rgb(63, 26, 172) ;
+}
+.sport h1{
+    font-size: 50px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+img{
+    
+    height: fit-content;
+    width: 100%;
+}
+.demo {
+    color: rgb(154, 29, 54);
+    transition: 1s all ease;
+    cursor: pointer;
+}
+.demo:hover{
+    color: rgb(249, 4, 4);
+}
+

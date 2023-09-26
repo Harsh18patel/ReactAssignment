@@ -32,7 +32,7 @@ export default function PropsCom() {
 return (
 <>
 <h1>Pick Your Perfume</h1>
-<div className='d-flex gap-3 flex-wrap'>
+<div className='d-flex gap-3 flex-column'>
 {
 data.map((e,i)=>{
   return (
